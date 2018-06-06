@@ -1,0 +1,79 @@
+/*TodoList Styles*/
+ul{
+  margin:0;
+  padding:0;
+  float:left;
+}
+ul li{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+#todoList:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+#todoList .emptySpace {
+    background: #95a5a6;
+    border: dashed 0.0625rem #777;
+    height: 1.4375rem;
+}
+
+#todoList ul{
+  width:14.28%;
+  margin: 0;
+   padding: 0;
+  position:relative;
+}
+
+#todoList ul li.listTitle{
+  background:#444;
+  color:#fff;
+  padding:0.625rem;
+  text-align:center;
+  border-right:solid 0.0625rem #fff;
+  font-size:0.875rem;
+}
+
+
+li.addItem input{
+  width:100%;
+  font-size:0.875rem;
+  box-sizing : border-box;
+  padding:1.125rem;
+  border:0;
+}
+
+li.addItem input:focus{
+  color:#353535;
+  border: dashed 0.0625rem #777;
+  outline:none;
+}
+
+li.addItem{
+  display:none;
+  position:absolute;
+  top:0;
+  background:none;
+}
+
+#todoList ul:hover li.addItem {
+    display: block;
+}
+
+.todo-item{
+  font-family: 'Song Myung', serif;
+  color:#000;
+  background:#fff;
+  padding:0.3125rem;
+  font-size:0.75rem;
+  border-bottom:0.0625rem solid #eee;
+  cursor:pointer;
+}
+.todo-item:active{
+    transform: scale(1.2);
+    background: #fff;
+    border: solid 0.0625rem #b20039;
+    box-shadow: 0 0.625rem -0.25rem #111;
+}
