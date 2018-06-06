@@ -1,0 +1,17 @@
+/*Container Styles*/
+.container {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    position: relative;
+    width: 56.25rem;
+    margin: 2.5rem auto;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border: solid 0.0625rem #ccc;
+    text-align: center;
+}
+
+.container:after {
+    display: table;
+    content: "";
+    clear: both;
+}
