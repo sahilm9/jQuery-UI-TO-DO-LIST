@@ -506,6 +506,7 @@ li.addItem{
        -moz-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    cursor:pointer;
 }
 
 .fas.fa-trash{
