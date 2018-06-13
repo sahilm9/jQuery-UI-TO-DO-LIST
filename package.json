@@ -1,9 +1,9 @@
 {
-  "name": "Car-Racer",
+  "name": "jQuery-UI-TO-DO-LIST",
   "version": "1.0.0",
-  "description": "Car Racing Game",
+  "description": "Dynamic todo list to add, sort, drag and drop todos",
   "main": "index.js",
-  "repository": "https://github.com/sahilm9/Car-Racer.git",
+  "repository": "https://github.com/sahilm9/jQuery-UI-TO-DO-LIST",
   "author": "Sahil Mokkapati",
   "license": "MIT",
   "devDependencies": {
