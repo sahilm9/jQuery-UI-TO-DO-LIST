@@ -9,7 +9,7 @@ $(function() {
   // A function to calculate month as string
   let month = monthIndex => {
     // Store the months as strings in array
-    let months = ['January','February','March','April','May','June','August','September','October','November','December'];
+    let months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
     // return the string at index which is called
     return months[monthIndex];
   };
